@@ -1,0 +1,21 @@
+//____Variables
+$success: rgb(106, 146, 30);
+$color-primario: rgba(0, 0, 0, 0.8);
+$color-secundario: #fdfdfd;
+$font-primaria: helvetica, sans-serif;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+:root {
+  background: $color-primario;
+  font-family: Helvetica, sans-serif;
+  font-size: 62.5%; //con esto 1 em equivale a 15px
+  color: $color-secundario;
+}
